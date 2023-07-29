@@ -1,0 +1,15 @@
+# .github-ci.yml
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - lerna run build
+
+test:
+  stage: test
+  script:
+    - cd path/to/main-app
+    - node index.js  # Replace with the appropriate command to start your main app

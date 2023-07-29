@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "src/packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+    "useWorkspaces": true,
+  "ignoreChanges": [],
+  "useNx": true,
+  "command": {
+    
+  }
+}

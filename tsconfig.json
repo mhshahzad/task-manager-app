@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",                      // Or a higher ECMAScript version you prefer
+    "module": "ES6",                      // Or other module types you want to use
+    "outDir": "./dist",                   // Output directory for compiled JavaScript files
+    "rootDir": "./src",                   // Source directory where your TypeScript files reside
+    "strict": true,                       // Enforce strict type checking
+    "esModuleInterop": true               // Enable interoperability between CommonJS and ES6 modules
+  },
+  "include": ["src"]                      // Array of directories or files to include in compilation
+}

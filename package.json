@@ -1,0 +1,22 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "start": "node dist/app.js",
+    "bootstrap": "lerna bootstrap"
+  },
+  "author": "Muhammad H. Shahzad",
+  "private": "true",
+  "workspaces": ["src/packages/*"],
+  "license": "ISC",
+  "dependencies": {
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^5.1.6"
+  }
+}
