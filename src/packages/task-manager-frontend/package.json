@@ -1,0 +1,27 @@
+{
+  "name": "task-management-frontend",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Muhammad Shahzad <muhammadhs@pm.me>",
+  "license": "ISC",
+  "main": "lib/task-management-frontend.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadh-s/task-management.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/task-management-frontend.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammadh-s/task-management/issues"
+  },
+  "homepage": "https://github.com/muhammadh-s/task-management#readme"
+}
