@@ -1,0 +1,31 @@
+{
+  "name": "task-manager-core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Muhammad Shahzad <muhammadhs@pm.me>",
+  "homepage": "https://github.com/muhammadh-s/task-manager#readme",
+  "license": "ISC",
+  "main": "lib/task-manager-core.js",
+  "private": "true",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadh-s/task-manager.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/task-manager-core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammadh-s/task-manager/issues"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.17",
+    "task-manager-db": "1.0.1"
+  }
+}
