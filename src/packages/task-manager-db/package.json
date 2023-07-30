@@ -1,0 +1,32 @@
+{
+  "name": "task-manager-db",
+  "version": "1.0.1",
+  "description": "Repository for database of task manager",
+  "author": "Muhammad Shahzad <muhammadhs@pm.me>",
+  "homepage": "https://github.com/muhammadh-s/task-manager#readme",
+  "license": "ISC",
+  "main": "lib/task-manager-core.js",
+  "private": "true",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadh-s/task-manager.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/task-manager-db.test.js",
+    "publish": "npm publish",
+    "build": "tsc -p tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammadh-s/task-manager/issues"
+  },
+  "dependencies": {
+    "task-manager-types": "^1.0.0"
+  }
+}
