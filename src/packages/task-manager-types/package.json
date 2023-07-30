@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-types",
+  "version": "1.0.0",
+  "description": "Types for Task Management App",
+  "keywords": [],
+  "author": "Muhammad Shahzad <muhammadhs@pm.me>",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadh-s/task-management.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/task-management-types.test.js",
+    "publish": "npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammadh-s/task-management/issues"
+  },
+  "homepage": "https://github.com/muhammadh-s/task-management#readme"
+}
